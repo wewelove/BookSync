@@ -20,11 +20,6 @@
   "background": {
     "service_worker": "background.js"
   },
-  "offscreen": {
-    "path": "offscreen.html",
-    "reasons": ["DOM_PARSER"],
-    "justification": "Required to parse WebDAV XML responses."
-  },
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
